@@ -7,6 +7,17 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "go_to_definition_fallback": "none",
+  "diagnostics": {
+    "inline": {
+      "enabled": true,
+    },
+  },
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": true,
+    },
+  },
   "agent_servers": {
     "github-copilot-cli": {
       "type": "registry",
@@ -90,10 +101,7 @@
     "dark": "Empire Dark",
   },
   "theme_overrides": {
-    "Aura Dark": {
-      "border.variant": "#15141C",
-      "border.focused": "#4E466E",
-    },
+    "Odin": {},
   },
   "languages": {
     "C": {

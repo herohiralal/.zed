@@ -7,6 +7,7 @@
       "name": "Empire Dark",
       "appearance": "dark",
       "style": {
+        "background.appearance": "blurred",
         "border": "#2A2A2EFF",
         "border.variant": "#363C4600",
         "border.focused": "#E3CB4EFF",
@@ -151,6 +152,46 @@
             "cursor": "#bf956aff",
             "background": "#bf956aff",
             "selection": "#bf956a3d"
+          },
+          {
+            "cursor": "#f2d5cf",
+            "selection": "#949cbb40",
+            "background": "#f2d5cf"
+          },
+          {
+            "cursor": "#ca9ee6",
+            "selection": "#ca9ee640",
+            "background": "#ca9ee6"
+          },
+          {
+            "cursor": "#babbf1",
+            "selection": "#babbf140",
+            "background": "#babbf1"
+          },
+          {
+            "cursor": "#85c1dc",
+            "selection": "#85c1dc40",
+            "background": "#85c1dc"
+          },
+          {
+            "cursor": "#a6d189",
+            "selection": "#a6d18940",
+            "background": "#a6d189"
+          },
+          {
+            "cursor": "#e5c890",
+            "selection": "#e5c89040",
+            "background": "#e5c890"
+          },
+          {
+            "cursor": "#ef9f76",
+            "selection": "#ef9f7640",
+            "background": "#ef9f76"
+          },
+          {
+            "cursor": "#e78284",
+            "selection": "#e7828440",
+            "background": "#e78284"
           }
         ],
         "syntax": {
@@ -354,9 +395,19 @@
             "font_style": null,
             "font_weight": null
           },
+          "type.builtin": {
+            "color": "#CC7A95FF",
+            "font_style": null,
+            "font_weight": null
+          },
           "variable": {
             "color": "#ABB2BFFF",
             "font_style": null,
+            "font_weight": null
+          },
+          "variable.parameter": {
+            "color": "#D19A66FF",
+            "font_style": "italic",
             "font_weight": null
           },
           "variable.special": {
