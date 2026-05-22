@@ -86,7 +86,7 @@
     "calt": true,
   },
   "file_types": {
-    "cpp": ["*.isph"],
+    "cpp": ["*.isph", "*.h"],
   },
   "auto_indent_on_paste": true,
   "use_on_type_format": true,
@@ -109,6 +109,13 @@
     },
     "C++": {
       "formatter": "none",
+    },
+  },
+  "lsp": {
+    "clangd": {
+      "binary": {
+        "arguments": ["--clang-tidy=false"],
+      },
     },
   },
 }

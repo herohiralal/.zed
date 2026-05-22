@@ -19,12 +19,17 @@
       "ctrl-shift-up": "editor::SelectToStartOfParagraph",
       "ctrl-shift-down": "editor::SelectToEndOfParagraph",
       "shift-delete": "editor::DeleteLine",
+      "ctrl-alt-f": "editor::SelectNext",
+      "ctrl-d": "editor::DuplicateLineDown",
     },
     "unbind": {
       "ctrl-shift-k": "editor::DeleteLine",
       "ctrl-up": "editor::LineUp",
       "ctrl-down": "editor::LineDown",
       "shift-delete": "editor::Cut",
+      "ctrl-d": "editor::SelectNext",
+      "alt-shift-up": "editor::DuplicateLineUp",
+      "alt-shift-down": "editor::DuplicateLineDown",
     },
   },
   {
@@ -43,6 +48,14 @@
     "context": "FileFinder || FileFinder > Picker > Editor",
     "unbind": {
       "ctrl-p": "file_finder::Toggle",
+    },
+  },
+  {
+    "bindings": {
+      "f11": "debugger::StepInto",
+    },
+    "unbind": {
+      "f11": "zed::ToggleFullScreen",
     },
   },
 ]

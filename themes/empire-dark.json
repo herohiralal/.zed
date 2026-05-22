@@ -431,7 +431,7 @@
             "font_weight": 700
           }
         },
-        "editor.debugger_active_line.background": "#CC6633FF",
+        "editor.debugger_active_line.background": "#CC663377",
         "editor.document_highlight.bracket_background": "#696B519C",
         "element.selection_background": "#00000000",
         "scrollbar.thumb.active_background": "#363C46FF",
