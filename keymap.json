@@ -1,0 +1,48 @@
+// documentation: https://zed.dev/docs/key-bindings
+[
+  {
+    "context": "!AcpThread > Editor && mode == full",
+    "bindings": {
+      "alt-f1 1": "pane::RevealInProjectPanel",
+    },
+    "unbind": {
+      "ctrl-shift-e": "pane::RevealInProjectPanel",
+    },
+  },
+  {
+    "context": "Editor",
+    "bindings": {
+      "ctrl-enter": "editor::NewlineAbove",
+      "shift-enter": "editor::NewlineBelow",
+      "ctrl-up": "editor::MoveToStartOfParagraph",
+      "ctrl-down": "editor::MoveToEndOfParagraph",
+      "ctrl-shift-up": "editor::SelectToStartOfParagraph",
+      "ctrl-shift-down": "editor::SelectToEndOfParagraph",
+      "shift-delete": "editor::DeleteLine",
+    },
+    "unbind": {
+      "ctrl-shift-k": "editor::DeleteLine",
+      "ctrl-up": "editor::LineUp",
+      "ctrl-down": "editor::LineDown",
+      "shift-delete": "editor::Cut",
+    },
+  },
+  {
+    "context": "Workspace",
+    "bindings": {
+      "shift shift": "file_finder::Toggle",
+      "ctrl-alt-l": "project_panel::ToggleFocus",
+    },
+    "unbind": {
+      "ctrl-p": "file_finder::Toggle",
+      "ctrl-shift-e": "project_panel::ToggleFocus",
+      "ctrl-shift-b": "outline_panel::ToggleFocus",
+    },
+  },
+  {
+    "context": "FileFinder || FileFinder > Picker > Editor",
+    "unbind": {
+      "ctrl-p": "file_finder::Toggle",
+    },
+  },
+]
