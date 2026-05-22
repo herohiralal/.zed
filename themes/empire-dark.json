@@ -424,6 +424,11 @@
             "color": "#AF98E6FF",
             "font_style": null,
             "font_weight": null
+          },
+          "property.json_key": {
+            "color": "#6fc481FF",
+            "font_style": null,
+            "font_weight": 700
           }
         },
         "editor.debugger_active_line.background": "#CC6633FF",
