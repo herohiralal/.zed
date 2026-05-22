@@ -92,7 +92,7 @@
   "use_on_type_format": true,
   "semantic_tokens": "combined",
   "base_keymap": "VSCode",
-  "icon_theme": "Warm Charmed Icons",
+  "icon_theme": "Material Icon Theme",
   "ui_font_size": 16.0,
   "buffer_font_size": 13.0,
   "theme": {

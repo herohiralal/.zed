@@ -45,12 +45,19 @@
     },
   },
   {
+    "context": "BufferSearchBar",
+    "bindings": {
+      "shift-enter": "editor::FindPreviousMatch",
+    },
+  },
+  {
     "context": "FileFinder || FileFinder > Picker > Editor",
     "unbind": {
       "ctrl-p": "file_finder::Toggle",
     },
   },
   {
+    // global
     "bindings": {
       "f11": "debugger::StepInto",
     },
