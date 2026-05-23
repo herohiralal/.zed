@@ -60,6 +60,7 @@
     // global
     "bindings": {
       "f11": "debugger::StepInto",
+      "ctrl-shift-b": ["task::Spawn", { "task_name": "Build" }],
     },
     "unbind": {
       "f11": "zed::ToggleFullScreen",

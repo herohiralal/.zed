@@ -27,6 +27,7 @@
     "provider": "copilot",
   },
   "agent": {
+    "sidebar_side": "right",
     "dock": "right",
     "favorite_models": [],
     "model_parameters": [],
@@ -106,14 +107,19 @@
   "languages": {
     "C": {
       "formatter": "none",
+      "format_on_save": "off",
+      "use_on_type_format": false,
     },
     "C++": {
       "formatter": "none",
+      "format_on_save": "off",
+      "use_on_type_format": false,
     },
   },
   "lsp": {
     "clangd": {
       "binary": {
+        "path": "clangd",
         "arguments": ["--clang-tidy=false"],
       },
     },
