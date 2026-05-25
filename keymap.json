@@ -30,6 +30,7 @@
       "ctrl-d": "editor::SelectNext",
       "alt-shift-up": "editor::DuplicateLineUp",
       "alt-shift-down": "editor::DuplicateLineDown",
+      "ctrl-alt-e": "editor::ToggleEditPrediction",
     },
   },
   {
@@ -37,6 +38,7 @@
     "bindings": {
       "shift shift": "file_finder::Toggle",
       "ctrl-alt-l": "project_panel::ToggleFocus",
+      "ctrl-f1": "workspace::ToggleEditPrediction",
     },
     "unbind": {
       "ctrl-p": "file_finder::Toggle",
