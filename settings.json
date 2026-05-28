@@ -88,7 +88,7 @@
     "calt": true,
   },
   "file_types": {
-    "cpp": ["*.isph", "*.h"],
+    "cpp": ["*.isph"],
   },
   "auto_indent_on_paste": true,
   "use_on_type_format": true,
@@ -101,9 +101,6 @@
     "mode": "system",
     "light": "One Light",
     "dark": "Empire Dark",
-  },
-  "theme_overrides": {
-    "Odin": {},
   },
   "languages": {
     "C": {
