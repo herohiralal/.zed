@@ -21,6 +21,7 @@
       "shift-delete": "editor::DeleteLine",
       "ctrl-alt-f": "editor::SelectNext",
       "ctrl-d": "editor::DuplicateLineDown",
+      "ctrl-p": "editor::SelectNext",
     },
     "unbind": {
       "ctrl-shift-k": "editor::DeleteLine",

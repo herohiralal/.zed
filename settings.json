@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "diff_view_style": "split",
   "show_edit_predictions": true,
   "go_to_definition_fallback": "none",
   "diagnostics": {
@@ -112,6 +113,14 @@
       "formatter": "none",
       "format_on_save": "off",
       "use_on_type_format": false,
+    },
+    "Odin": {
+      "formatter": {
+        "external": {
+          "command": "odinfmt",
+          "arguments": ["-stdin"],
+        },
+      },
     },
   },
   "lsp": {
